@@ -9,6 +9,13 @@ a {
     text-decoration: none;
 }
 
+a:hover {
+    text-decoration: none;
+    background: rgba(228, 99, 0,1); /* Colore pieno */
+    transform: scale(1.1); /* Leggero ingrandimento */
+    box-shadow: 0 10px 20px rgba(228, 99, 0, 0.5); /* Ombra */
+}
+
 h1,
 h2,
 h3,
@@ -50,20 +57,32 @@ p {
 
 .button {
     padding: 18px 28px;
-    background: rgb(228, 99, 0);
+    background:linear-gradient(0deg, rgba(228, 99, 0, 0.9), rgba(228, 99, 0, 0.6));
     color: #fff;
     text-transform: uppercase;
     display: inline-block;
     border-radius: 50px 0;
 }
 
+.button:hover {
+    background: rgba(228, 99, 0,1); /* Colore pieno */
+    transform: scale(1.1); /* Leggero ingrandimento */
+    box-shadow: 0 10px 20px rgba(228, 99, 0, 0.5); /* Ombra */
+}
+
 .button-2{
     padding: 18px 28px;
-    background: rgb(0, 0, 0);
+    background:linear-gradient(0deg, rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 0.6));
     color: #fff;
     text-transform: uppercase;
     display: inline-block;
     border-radius: 50px 0;
+}
+
+.button-2:hover {
+    background: rgba(0, 0, 0,1); /* Colore pieno */
+    transform: scale(1.1); /* Leggero ingrandimento */
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.5); /* Ombra */
 }
 
 @media (max-width: 768px) {
@@ -312,7 +331,8 @@ p {
 .carousel-cell {
     height: 350px;
     width: 350px;
-    background: rgb(228, 99, 0);
+    /*background: rgb(228, 99, 0)*/
+    background:linear-gradient(0deg, rgba(228, 99, 0, 0.9), rgba(228, 99, 0, 0.6));
     border-radius: 50px 0;
     line-height: 350px;
     text-align: center;
@@ -334,7 +354,7 @@ p {
 .dot {
     width: 250px;
     height: 250px;
-    background: rgb(228, 99, 0);
+    background:linear-gradient(0deg, rgba(228, 99, 0, 0.9), rgba(228, 99, 0, 0.6));
     border-radius: 50px 0;
     line-height: 250px;
     text-align: center;
@@ -347,7 +367,7 @@ p {
 /* Footer */
 
 .footer {
-    background: rgb(228, 99, 0);
+    background:linear-gradient(0deg, rgba(228, 99, 0, 0.9), rgba(228, 99, 0, 0.8));
     padding: 150px 0;
 }
 
