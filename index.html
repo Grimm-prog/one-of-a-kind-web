@@ -93,7 +93,8 @@
             </h3>
         </div>
         <div class="col">
-            <p class="mt-2">Ogni progetto è un viaggio unico. Mi impegno a comprendere le tue esigenze e a trasformarle in
+            <p class="mt-2">Ogni progetto è un viaggio unico. Mi impegno a comprendere le tue esigenze e a trasformarle
+                in
                 esperienze digitali che parlano di te e per te.</p>
         </div>
     </div>
@@ -141,8 +142,10 @@
                         <h3 class="big-text tw">Il processo che funziona</h3>
                     </div>
                     <div class="col">
-                        <p class="tw mt-1">Dal primo brainstorming al lancio del tuo progetto, seguo ogni fase con dedizione.
-                            La mia missione è creare un prodotto che non solo soddisfi le tue aspettative, ma le superi.</p>
+                        <p class="tw mt-1">Dal primo brainstorming al lancio del tuo progetto, seguo ogni fase con
+                            dedizione.
+                            La mia missione è creare un prodotto che non solo soddisfi le tue aspettative, ma le superi.
+                        </p>
                     </div>
                 </div>
             </div>
@@ -155,13 +158,15 @@
                 <div>
                     <a href="www.linkedin.com/in/salvatoreluongo2000" class="button-2">Contattami</a>
                 </div>
-                <p class="tw">Hai un'idea? <br> Scrivimi e iniziamo a costruire <br> qualcosa di straordinario insieme.</p>
+                <p class="tw">Hai un'idea? <br> Scrivimi e iniziamo a costruire <br> qualcosa di straordinario insieme.
+                </p>
             </div>
             <div class="col">
                 <div>
                     <a href="#panel-blue" class="button-2">servizi</a>
                 </div>
-                <p class="tw">Dalla progettazione al supporto continuo, <br> offro un pacchetto completo per il tuo successo digitale.</p>
+                <p class="tw">Dalla progettazione al supporto continuo, <br> offro un pacchetto completo per il tuo
+                    successo digitale.</p>
             </div>
             <div class="col mb-1">
                 <div>
@@ -173,7 +178,8 @@
                 <div>
                     <a href="www.linkedin.com/in/salvatoreluongo2000" class="button-2">Seguimi</a>
                 </div>
-                <p class="tw">Resta aggiornato sui miei ultimi progetti e trova ispirazione per il tuo prossimo passo digitale.</p>
+                <p class="tw">Resta aggiornato sui miei ultimi progetti e trova ispirazione per il tuo prossimo passo
+                    digitale.</p>
             </div>
         </div>
     </footer>
@@ -196,9 +202,15 @@
     <script>
         $(document).ready(function () {
 
-            // <open panel
+            // open panel
             $('.hamburger').on('click', function () {
                 $('.menu').toggleClass("menu--open");
+            });
+
+            // close panel
+
+            $('.menu a').on('click', function () {
+                $('.menu').removeClass("menu--open");
             });
 
         });
